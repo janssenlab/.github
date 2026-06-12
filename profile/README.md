@@ -1,5 +1,5 @@
 # Janssen Lab 
-Software developed in the [Materials Informatics group at the Max Planck Institute for Sustainable Materials](https://www.mpie.de/5013829/matinf).
+Software developed in the [Materials Informatics group](https://www.mpie.de/5013829/matinf) at the [Max Planck Institute for Sustainable Materials](https://www.mpie.de/).
 
 | Project                                                                          | Description                          | Publication | Coverage | Github Stars |
 |----------------------------------------------------------------------------------|--------------------------------------|-------------|----------|--------------|
