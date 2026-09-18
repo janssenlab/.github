@@ -26,9 +26,10 @@ Tutorials of the software developed in the [Materials Informatics group](https:/
 | Atomistic Simulations for Industrial Needs | 2020 | [:memo:](https://www.nist.gov/news-events/events/2020/08/atomistic-simulations-industrial-needs) | | [:package:](https://github.com/pyiron-workshop/NIST-workshop-2020) | [:tv:](https://www.youtube.com/watch?v=jQGYUgJK3Ug) |
 
 ## Lectures 
+While the [Materials Informatics group](https://www.mpie.de/5013829/matinf) is not affiliated with a specific university, we frequently give guest lectures to introduce students to current research challenges:
 
 | Title | Year | Website | Repository |
-|:-----:|:----:|:-------:|:----------:|
+|:------|:-----|:-------:|:----------:|
 | Heinrich Heine University: Density Functional Theory | 2026 | [:books:](https://janssenlab.github.io/2026-HHU-lecture/) | [:package:](https://github.com/janssenlab/2026-HHU-lecture) | 
 | Ruhr University Bochum: Programming Concepts in Materials Science | 2025 | | [:package:](https://github.com/janssenlab/2025-RUB-Programming-Concepts-in-Materials-Science-Lecture) | 
 | SusMet: Machine Learning in Materials Science | 2025 | [:books:](https://janssenlab.github.io/2025-SusMet-Machine-Learning-Workshop/) | [:package:](https://github.com/janssenlab/2025-SusMet-Machine-Learning-Workshop) |
