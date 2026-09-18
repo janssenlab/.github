@@ -1,95 +1,72 @@
 # Janssen Lab — Materials Informatics
 
-We are the **Materials Informatics group** at the [Max Planck Institute for Sustainable Materials](https://www.mpie.de/5013829/matinf), led by **Jan Janssen**.
+We are the **Materials Informatics Group** at the [Max Planck Institute for Sustainable Materials](https://www.mpie.de/5013829/matinf), led by **Jan Janssen**.
 
-Our research focuses on the computational infrastructure that connects **materials simulation, machine learning, high-performance computing, and scientific workflows**. We develop methods and open-source tools that turn expert computational procedures into **reproducible, scalable, interoperable, and increasingly autonomous research workflows**.
+Our group brings together **computational materials science, thermodynamics, machine learning, scientific software, high-performance computing, and AI for science**. We develop methods and open-source infrastructure that make materials simulations **reproducible, scalable, interoperable, and increasingly autonomous**.
 
-> **Materials science → Scientific workflows → HPC → Machine learning → Agentic science**
+> **Materials science → workflows → HPC → machine learning → agentic science**
 
-## What we research
+## Research
 
-Our goal is to make computational materials science easier to automate, reproduce, scale, and integrate across methods.
+Our research spans several complementary areas:
 
-Key research directions include:
+- **Atomistic simulation & thermodynamics** — from electronic structure and atomistic simulation to free energies and phase stability
+- **Machine learning for materials** — interatomic potentials, statistical sampling, and data-driven materials discovery
+- **Uncertainty & validation** — convergence studies and propagation of computational uncertainties
+- **Scientific workflows & HPC** — reusable workflows, interoperability, provenance, and scalable execution
+- **AI for science** — LLM-based agents that construct, execute, and validate scientific workflows
 
-- **Automated atomistic simulation and thermodynamics** — from electronic-structure calculations and atomistic simulations to free energies and phase stability.
-- **Uncertainty and convergence** — systematic convergence studies and propagation of computational uncertainties through simulation workflows.
-- **Machine learning for materials science** — machine-learned interatomic potentials, statistical sampling, and data-driven exploration of materials.
-- **Scientific workflows and interoperability** — reusable workflow components, provenance, portability, and interfaces between workflow systems.
-- **High-performance computing** — scaling Python-based scientific workflows from local computers to HPC and exascale environments.
-- **Agentic science** — enabling LLM-based agents to construct, execute, inspect, and validate scientific workflows using trusted computational building blocks.
+This diversity allows us to connect methodological developments across the full computational research process rather than treating simulation, machine learning, and computing infrastructure as isolated problems.
 
-## What we build
+## Software
 
-The projects below are developed, led, or substantially contributed to by members of the Materials Informatics group. Many intentionally live in community organizations rather than under `janssenlab`.
+We treat **scientific software as a research output**. Automated testing, reproducibility, interoperability, and sustainable software engineering are integral parts of our work. Many projects intentionally live in community organizations rather than under `janssenlab`.
 
 | Project | Purpose | Publication | Coverage | GitHub Stars |
 |---|---|---|---|---|
-| [pyiron/pysqa](https://github.com/pyiron/pysqa) (2026) | Simple HPC queuing system adapter | [Journal of Open Source Software](https://doi.org/10.21105/joss.10961) | [![codecov](https://codecov.io/gh/pyiron/pysqa/graph/badge.svg?token=N753OWIAUW)](https://codecov.io/gh/pyiron/pysqa) | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/pysqa) |
-| [pyiron/executorlib](https://github.com/pyiron/executorlib) (2025) | Scale Python functions from local execution to HPC | [Journal of Open Source Software](https://doi.org/10.21105/joss.07782) | [![codecov](https://codecov.io/gh/pyiron/executorlib/graph/badge.svg?token=KFIO3R08H3)](https://codecov.io/gh/pyiron/executorlib) | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/executorlib) |
-| [pythonworkflow/python-workflow-definition](https://github.com/pythonworkflow/python-workflow-definition) (2025) | Workflow interoperability standard | [Digital Discovery](https://doi.org/10.1039/D5DD00231A) | [![codecov](https://codecov.io/github/pythonworkflow/python-workflow-definition/graph/badge.svg?token=3JXD1GN8LG)](https://codecov.io/github/pythonworkflow/python-workflow-definition) | ![GitHub Repo stars](https://img.shields.io/github/stars/pythonworkflow/python-workflow-definition) |
-| [jan-janssen/LangSim](https://github.com/jan-janssen/LangSim) (2025) | LLM agents for atomistic simulation | [Machine Learning: Science and Technology](http://doi.org/10.1088/2632-2153/ae011a) | | ![GitHub Repo stars](https://img.shields.io/github/stars/jan-janssen/LangSim) |
-| [pyiron/pyiron](https://github.com/pyiron/pyiron) (2019) | Integrated development environment for computational materials science | [Computational Materials Science](https://doi.org/10.1016/j.commatsci.2018.07.043) | | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/pyiron) |
+| [pyiron/pysqa](https://github.com/pyiron/pysqa) | HPC queuing system adapter | [JOSS](https://doi.org/10.21105/joss.10961) | [![codecov](https://codecov.io/gh/pyiron/pysqa/graph/badge.svg?token=N753OWIAUW)](https://codecov.io/gh/pyiron/pysqa) | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/pysqa) |
+| [pyiron/executorlib](https://github.com/pyiron/executorlib) | Scale Python functions to HPC | [JOSS](https://doi.org/10.21105/joss.07782) | [![codecov](https://codecov.io/gh/pyiron/executorlib/graph/badge.svg?token=KFIO3R08H3)](https://codecov.io/gh/pyiron/executorlib) | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/executorlib) |
+| [pythonworkflow/python-workflow-definition](https://github.com/pythonworkflow/python-workflow-definition) | Workflow interoperability | [Digital Discovery](https://doi.org/10.1039/D5DD00231A) | [![codecov](https://codecov.io/github/pythonworkflow/python-workflow-definition/graph/badge.svg?token=3JXD1GN8LG)](https://codecov.io/github/pythonworkflow/python-workflow-definition) | ![GitHub Repo stars](https://img.shields.io/github/stars/pythonworkflow/python-workflow-definition) |
+| [jan-janssen/LangSim](https://github.com/jan-janssen/LangSim) | LLM agents for atomistic simulation | [MLST](http://doi.org/10.1088/2632-2153/ae011a) | — | ![GitHub Repo stars](https://img.shields.io/github/stars/jan-janssen/LangSim) |
+| [pyiron/pyiron](https://github.com/pyiron/pyiron) | Computational materials science environment | [CMS](https://doi.org/10.1016/j.commatsci.2018.07.043) | — | ![GitHub Repo stars](https://img.shields.io/github/stars/pyiron/pyiron) |
 
-## What we enable
+## Teaching & community
 
-Rather than treating individual simulation codes, machine-learning models, and computing resources as isolated tools, we connect them into reusable computational research processes.
+**Training the next generation of computational materials scientists is an integral part of our work.**
 
-Typical workflows include:
+We develop open teaching material and regularly contribute lectures and hands-on tutorials covering the spectrum from **programming and DFT to machine learning, atomistic simulation, scientific workflows, and HPC**.
 
-**Electronic structure → atomistic models → free energies → phase stability**
+**📝 Event · 📚 Material · 📦 Source · 📺 Video**
 
-**Scientific method → automated convergence → uncertainty-aware result**
+### Tutorials
 
-**Python function → workflow → remote execution → HPC**
+| Tutorial | Year | Event | Material | Source | Video |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| NFDI-MatWerk Summer School — pyiron | 2026 | [📝](https://www.eusmat.net/research/other-events/nfdi-matwerk-summer-school-2026/) | [📚](http://workshop.pyiron.org/NFDI-summerschool-2026/) | [📦](https://github.com/pyiron-workshop/NFDI-summerschool-2026) | |
+| LANL — executorlib / HPC workflows | 2026 | | [📚](https://workshop.pyiron.org/lanl-executorlib-tutorial) | [📦](https://github.com/pyiron-workshop/lanl-executorlib-tutorial) | |
+| LANL — pyiron | 2025 | | [📚](http://workshop.pyiron.org/lanl-tutorial-2025/) | [📦](https://github.com/pyiron-workshop/lanl-tutorial-2025) | |
+| IMSI — Data-Driven Materials Informatics | 2024 | [📝](https://www.imsi.institute/activities/data-driven-materials-informatics/) | [📚](https://workshop.pyiron.org/imsi-tutorial/) | [📦](https://github.com/pyiron-workshop/imsi-tutorial) | |
+| LAMMPS Virtual Workshop | 2023 | [📝](https://www.lammps.org/workshops/Aug23/) | [📚](http://workshop.pyiron.org/lammps-workshop-2023) | [📦](https://github.com/pyiron-workshop/lammps-workshop-2023) | |
+| Simulation Workflows in Materials Modelling (SWiMM) | 2021 | [📝](https://www.cecam.org/workshop-details/27) | [📚](http://workshop.pyiron.org/swimm-workshop-2021/) | [📦](https://github.com/pyiron-workshop/swimm-workshop-2021) | [📺](https://www.youtube.com/playlist?list=PL7AkGfbmuLRQeJ-Koq_6m99Lq4mueF2L-) |
+| Software Tools from Atomistics to Phase Diagrams | 2020 | | [📚](https://workshop.pyiron.org/phasediagram-workshop-2020/) | [📦](https://github.com/pyiron-workshop/phasediagram-workshop-2020) | [📺](https://www.youtube.com/playlist?list=PL7AkGfbmuLRReeaQmsTl-vaDyEZR8ROkx) |
+| Atomistic Simulations for Industrial Needs | 2020 | [📝](https://www.nist.gov/news-events/events/2020/08/atomistic-simulations-industrial-needs) | | [📦](https://github.com/pyiron-workshop/NIST-workshop-2020) | [📺](https://www.youtube.com/watch?v=jQGYUgJK3Ug) |
 
-**Scientific hypothesis → agent → simulation workflow → validation**
+Additional workshop material is maintained in the [pyiron-workshop](https://github.com/pyiron-workshop) organization.
 
-This infrastructure allows collaborators to focus on the scientific question while retaining transparency and control over the underlying computational methodology.
+### Lectures
+
+| Lecture | Year | Material | Source |
+|:---|:---:|:---:|:---:|
+| Heinrich Heine University — Density Functional Theory | 2026 | [📚](https://janssenlab.github.io/2026-HHU-lecture/) | [📦](https://github.com/janssenlab/2026-HHU-lecture) |
+| Ruhr University Bochum — Programming Concepts in Materials Science | 2025 | | [📦](https://github.com/janssenlab/2025-RUB-Programming-Concepts-in-Materials-Science-Lecture) |
+| SusMet — Machine Learning in Materials Science | 2025 | [📚](https://janssenlab.github.io/2025-SusMet-Machine-Learning-Workshop/) | [📦](https://github.com/janssenlab/2025-SusMet-Machine-Learning-Workshop) |
+| University of Birmingham — Atomistic Simulation | 2025 | [📚](https://janssenlab.github.io/2025-Birmingham-University-Atomistic-Simulation-Lecture/) | [📦](https://github.com/janssenlab/2025-Birmingham-University-Atomistic-Simulation-Lecture) |
+| SusMet — Density Functional Theory | 2024 | [📚](https://janssenlab.github.io/2024-SusMet-Density-Functional-Theory-Lecture/) | [📦](https://github.com/janssenlab/2024-SusMet-Density-Functional-Theory-Lecture) |
 
 ## Collaboration
 
-We are interested in collaborations at the interface between **materials science, scientific computing, machine learning, and research software engineering**.
+We collaborate across **experimental and computational materials science, machine learning, AI for science, HPC, and research software engineering**.
 
-In particular, our group can contribute:
+Our contribution is often to connect scientific expertise with computational infrastructure — turning methods into **reusable, scalable, and inspectable workflows** and transferring these capabilities to collaborators and students.
 
-- **Method integration** — connecting electronic structure, atomistics, thermodynamics, machine learning, and experimental data.
-- **Workflow automation** — translating expert computational procedures into reusable and inspectable workflows.
-- **HPC scaling** — moving scientific workflows from notebooks and workstations to distributed computing resources.
-- **Reproducibility and provenance** — making computational procedures and their results traceable and reusable.
-- **Interoperability** — connecting scientific tools and workflow systems without requiring a monolithic software stack.
-- **AI-ready scientific infrastructure** — exposing validated scientific components to LLM-based agents while preserving explicit workflows and provenance.
-- **Knowledge transfer** — providing tutorials, workshops, and teaching materials that help collaborators adopt the resulting methods.
-
-We are particularly interested in working with groups that bring complementary expertise in **experimental materials science, electronic-structure theory, atomistic simulation, thermodynamics, machine learning, AI for science, or high-performance computing**.
-
-## Tutorials
-
-We regularly provide hands-on tutorials on scientific workflows, atomistic simulation, and HPC.
-
-| Workshop Title | Year | Workshop | Website | Repository | Videos |
-|:---------------|:-----|:--------:|:-------:|:----------:|:------:|
-| NFDI MatWerk Summer School — pyiron Tutorial | 2026 | [:memo:](https://www.eusmat.net/research/other-events/nfdi-matwerk-summer-school-2026/) | [:books:](http://workshop.pyiron.org/NFDI-summerschool-2026/) | [:package:](https://github.com/pyiron-workshop/NFDI-summerschool-2026) | |
-| Los Alamos National Laboratory — Executorlib Tutorial | 2026 | | [:books:](https://workshop.pyiron.org/lanl-executorlib-tutorial) | [:package:](https://github.com/pyiron-workshop/lanl-executorlib-tutorial) | |
-| Los Alamos National Laboratory — pyiron Tutorial | 2025 | | [:books:](http://workshop.pyiron.org/lanl-tutorial-2025/) | [:package:](https://github.com/pyiron-workshop/lanl-tutorial-2025) | |
-| IMSI: Data-Driven Materials Informatics | 2024 | [:memo:](https://www.imsi.institute/activities/data-driven-materials-informatics/) | [:books:](https://workshop.pyiron.org/imsi-tutorial/) | [:package:](https://github.com/pyiron-workshop/imsi-tutorial) | |
-| LAMMPS Virtual Workshop and Symposium | 2023 | [:memo:](https://www.lammps.org/workshops/Aug23/) | [:books:](http://workshop.pyiron.org/lammps-workshop-2023) | [:package:](https://github.com/pyiron-workshop/lammps-workshop-2023) | |
-| Simulation Workflows in Materials Modelling (SWiMM) | 2021 | [:memo:](https://www.cecam.org/workshop-details/27) | [:books:](http://workshop.pyiron.org/swimm-workshop-2021/) | [:package:](https://github.com/pyiron-workshop/swimm-workshop-2021) | [:tv:](https://www.youtube.com/playlist?list=PL7AkGfbmuLRQeJ-Koq_6m99Lq4mueF2L-) |
-| Software Tools from Atomistics to Phase Diagrams | 2020 | | [:books:](https://workshop.pyiron.org/phasediagram-workshop-2020/) | [:package:](https://github.com/pyiron-workshop/phasediagram-workshop-2020) | [:tv:](https://www.youtube.com/playlist?list=PL7AkGfbmuLRReeaQmsTl-vaDyEZR8ROkx) |
-| Atomistic Simulations for Industrial Needs | 2020 | [:memo:](https://www.nist.gov/news-events/events/2020/08/atomistic-simulations-industrial-needs) | | [:package:](https://github.com/pyiron-workshop/NIST-workshop-2020) | [:tv:](https://www.youtube.com/watch?v=jQGYUgJK3Ug) |
-
-## Teaching
-
-While the Materials Informatics group is not affiliated with a specific university, we regularly give guest lectures introducing students to computational materials science, scientific programming, and machine learning.
-
-| Title | Year | Website | Repository |
-|:------|:-----|:-------:|:----------:|
-| Heinrich Heine University: Density Functional Theory | 2026 | [:books:](https://janssenlab.github.io/2026-HHU-lecture/) | [:package:](https://github.com/janssenlab/2026-HHU-lecture) |
-| Ruhr University Bochum: Programming Concepts in Materials Science | 2025 | | [:package:](https://github.com/janssenlab/2025-RUB-Programming-Concepts-in-Materials-Science-Lecture) |
-| SusMet: Machine Learning in Materials Science | 2025 | [:books:](https://janssenlab.github.io/2025-SusMet-Machine-Learning-Workshop/) | [:package:](https://github.com/janssenlab/2025-SusMet-Machine-Learning-Workshop) |
-| Birmingham University: Atomistic Simulation | 2025 | [:books:](https://janssenlab.github.io/2025-Birmingham-University-Atomistic-Simulation-Lecture/) | [:package:](https://github.com/janssenlab/2025-Birmingham-University-Atomistic-Simulation-Lecture) |
-| SusMet: Density Functional Theory | 2024 | [:books:](https://janssenlab.github.io/2024-SusMet-Density-Functional-Theory-Lecture/) | [:package:](https://github.com/janssenlab/2024-SusMet-Density-Functional-Theory-Lecture) |
-
-## Learn more
-
-For more information about our research, publications, team, and current activities, visit the [Materials Informatics group at the Max Planck Institute for Sustainable Materials](https://www.mpie.de/5013829/matinf).
+More about our research and team: [Materials Informatics at MPI SusMat](https://www.mpie.de/5013829/matinf)
